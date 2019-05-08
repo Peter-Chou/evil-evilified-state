@@ -64,7 +64,7 @@
 
 (bind-map spacemacs-default-map
   :prefix-cmd spacemacs-cmds
-  :evil-keys (dotspacemacs-leader-key)
+  :evil-keys "SPC"
   :evil-states (evilified)
   :override-minor-modes t
   :override-mode-name spacemacs-leader-override-mode)
